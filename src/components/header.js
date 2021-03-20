@@ -15,22 +15,22 @@ const Header = () => {
           <nav className={headerStyles.navContainer}>
             <ul className={headerStyles.navList}>
               <li>
-                <Link to="/" activeClassName={headerStyles.activeMenuItem}>
+                <Link to="/" activeStyle={{ color: "aqua" }} activeClassName={headerStyles.activeMenuItem}>
                   Home
                 </Link>
               </li>
               <li>
-              <Link to="/about/" activeClassName={headerStyles.activeMenuItem}>
+              <Link to="/about/" activeStyle={{ color: "aqua" }} activeClassName={headerStyles.activeMenuItem}>
                   About
                 </Link>
               </li>
               <li>
-              <Link to="/blog/" activeClassName={headerStyles.activeMenuItem}>
+              <Link to="/blog/" activeStyle={{ color: "aqua" }} activeClassName={headerStyles.activeMenuItem}>
                   Blog
                 </Link>
               </li>
               <li>
-              <Link to="/contact/" activeClassName={headerStyles.activeMenuItem}>
+              <Link to="/contact/" activeStyle={{ color: "aqua" }} activeClassName={headerStyles.activeMenuItem}>
                   Contact
                 </Link>
               </li>
